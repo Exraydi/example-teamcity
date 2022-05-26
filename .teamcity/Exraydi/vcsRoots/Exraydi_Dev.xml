@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="067f6e0f-800f-4d59-9056-20647b222bec" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>Dev</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/dev" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="zxx8ea8dab77ff0c497b034ffa09d577dc5" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/Exraydi/example-teamcity.git" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="exraydi@mail.ru" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
