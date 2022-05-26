@@ -33,7 +33,6 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Exraydi_HttpsGithubComExraydiExampleTeamcityGitRefsHeadsMaster" />
       <vcs-entry-ref root-id="Masterexampleteamcity" />
     </vcs-settings>
     <requirements />
