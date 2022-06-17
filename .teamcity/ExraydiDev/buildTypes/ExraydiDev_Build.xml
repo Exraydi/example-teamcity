@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="088c64e7-4f0e-49f1-9de6-65fb1fdbf3bc" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="c9dfc7f5-de62-462a-99fc-0a19ead10ec6" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
   <name>Build</name>
   <description />
   <settings>
     <parameters />
     <build-runners>
-      <runner id="RUNNER_5" name="" type="Maven2">
+      <runner id="RUNNER_6" name="" type="Maven2">
         <parameters>
-          <param name="goals" value="clean package" />
+          <param name="goals" value="clean test" />
           <param name="localRepoScope" value="agent" />
           <param name="maven.path" value="%teamcity.tool.maven.DEFAULT%" />
           <param name="pomLocation" value="pom.xml" />
@@ -18,11 +18,11 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Masterexampleteamcity" />
+      <vcs-entry-ref root-id="ExraydiDev_HttpsGithubComExraydiExampleTeamcityRefsHeadsDev" />
     </vcs-settings>
     <requirements />
     <build-triggers>
-      <build-trigger id="TRIGGER_1" type="vcsTrigger">
+      <build-trigger id="TRIGGER_2" type="vcsTrigger">
         <parameters>
           <param name="branchFilter" value="+:*" />
           <param name="enableQueueOptimization" value="true" />
